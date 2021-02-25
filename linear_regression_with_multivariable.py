@@ -3,6 +3,7 @@
 import numpy as np
 import matplotlib.pyplot as plt
 import pandas as pd
+import os
 
 path = os.getcwd() "current directory of file in process"
 data = pd.csv_read (path,header = None , names = []) "Enter name according to the requirements"
